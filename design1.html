@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Adan</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+
+    <script src="https://kit.fontawesome.com/c466840710.js" crossorigin="anonymous"></script>
+    <script src="styles.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+</head>
+
+<body>
+    <div class="row" id="nav">
+        <div class="container-fluid">
+            <a href="design1.html">
+                <h2 class="floatleft" style="position: relative; top: -10px;">This is the Nav</h2>
+            </a>
+
+            <div class="nav-item floatright">
+                <h2 class="dropbtn">Item 2</h2>
+                <div class="dropdown-content">
+                    <a href="design2.html">Lorem ipsum dolor sit amet</a>
+                    <a href="#">Lorem ipsum dolor sit amet</a>
+                    <a href="#">Lorem ipsum dolor sit amet</a>
+                </div>
+            </div>
+
+
+            <div class="nav-item floatright">
+                <h2 class="dropbtn">Item 1</h2>
+                <div class="dropdown-content">
+                    <a href="design2.html">Lorem ipsum dolor sit amet</a>
+                    <a href="#">Lorem ipsum dolor sit amet</a>
+                    <a href="#">Lorem ipsum dolor sit amet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- style="background-color: aquamarine; position:relative; top: 50px; height: 1000px;" -->
+    <div class="row">
+        <div id="section1">
+            <div id="welcome">
+                <h1>Welcome!</h1>
+                <p>This is a Test</p>
+
+                <div style="margin-top: 120px;"></div>
+
+                <div id="no-circle-hover">
+                    <p>No Circles on Hover Yet</p>
+                    <p class="circle-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos
+                    </p>
+                </div>
+
+                <div id="lighter-circle-hover">
+                    <p>Lighter Circle on Hover</p>
+                    <p class="circle-text">
+                        Lorem Ipsum: Usage, Common examples, Translation, Variants and technical information Essay: Lorem Ipsum--when, and when not to use it
+                    </p>
+                </div>
+                <div id="light-circle-hover">
+                    <p>Light Circle on Hover</p>
+                    <p class="circle-text">
+                        Cu mollis percipitur nam. Ei qui quaeque scaevola. Has dicant mucius cu, eum tollit insolens ut. Duis iudico fabulas cu has, at quo minim labores.
+                    </p>
+                </div>
+                <div id="dark-circle-hover">
+                    <p>Dark Circle on Hover</p>
+                    <p class="circle-text">
+                        Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text.
+                    </p>
+                </div>
+            </div>
+            <div id="shapes">
+                <div id="circle-lighter" class="floatleft" onmouseover="lighter()" onmouseout="noHover()"> </div>
+                <div id="circle-light" class="floatleft" onmouseover="light()" onmouseout="noHover()"> </div>
+                <div id="circle-dark" class="floatleft" onmouseover="dark()" onmouseout="noHover()"> </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-color5">
+        <div id="section2">
+            <h1>Section 2 Design 1</h1>
+
+            <div class="accordions floatleft">
+                <div class="accordion" onclick="toggleAccordion('a1')">Accordion Title 1 <i class="fa fa-caret-down"></i></div>
+                <div class="panel" id="a1" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="accordion" onclick="toggleAccordion('a2')">Accordion Title 2<i class="fa fa-caret-down"></i></div>
+                <div class="panel" id="a2" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="accordion" onclick="toggleAccordion('a3')">Accordion Title 3<i class="fa fa-caret-down"></i></div>
+                <div class="panel" id="a3" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div class="accordions floatleft">
+                <div class="accordion" onclick="toggleAccordion('a4')">Accordion Title 1 <i class="fa fa-caret-down"></i></div>
+                <div class="panel" id="a4" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="accordion" onclick="toggleAccordion('a5')">Accordion Title 2<i class="fa fa-caret-down"></i></div>
+                <div class="panel" id="a5" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="accordion" onclick="toggleAccordion('a6')">Accordion Title 3<i class="fa fa-caret-down"></i></div>
+                <div class="panel" id="a6" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="section3">
+            <div class="section-container">
+                <img src="images/studying2.jpg" width="80%">
+            </div>
+            <div class="section-container">
+                <h1>Section 3 Design 1</h1>
+
+                <p style="color: var(--color4)">A form to send inquiries and registration</p>
+
+                <form id="section-3-form">
+                    <input type="text" placeholder="Full Name"> <br>
+                    <input type="email" placeholder="Email"><br>
+                    <textarea type="textarea" placeholder="Message Here"></textarea><br>
+                    <select>
+                        <option disabled selected>Select Here</option>
+                        <option>Name</option>
+                        <option>Age</option>
+                        <option>Gender</option>
+                    </select>
+                    <br>
+                    <button class="btn"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-color2">
+        <div id="section4">
+            <h1 style="color: white; margin-top: 70px;">Section 4 Design 1</h1>
+
+            <div class="section4-container">
+                <div class="row">
+                    <div class="card">
+                        <h2>Card 1</h2>
+                        <p>Hello I'm card 1 and this is my content</p>
+                    </div>
+                    <div class="card">
+                        <h2>Card 2</h2>
+                        <p>Hello I'm card 2 and this is my content</p>
+                    </div>
+                    <div class="card">
+                        <h2>Card 3</h2>
+                        <p>Hello I'm card 3 and this is my content</p>
+                    </div>
+                    <div class="card">
+                        <h2>Card 4</h2>
+                        <p>Hello I'm card 4 and this is my content</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <h2>Card 5</h2>
+                        <p>Hello I'm card 5 and this is my content</p>
+                    </div>
+                    <div class="card">
+                        <h2>Card 6</h2>
+                        <p>Hello I'm card 6 and this is my content</p>
+                    </div>
+                    <div class="card">
+                        <h2>Card 7</h2>
+                        <p>Hello I'm card 7 and this is my content</p>
+                    </div>
+                    <div class="card">
+                        <h2>Card 8</h2>
+                        <p>Hello I'm card 8 and this is my content</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
