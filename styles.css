@@ -64,6 +64,9 @@ h2 {
     .body {
         font-size: 25px;
     }
+    .row {
+        width: 100%;
+    }
 }
 
 #nav {
@@ -349,7 +352,10 @@ input[type="month"] {
         width: 110%;
         margin: 0 auto;
     }
-    #no-circle-hover p {
+    #no-circle-hover p,
+    #lighter-circle-hover p,
+    #light-circle-hoverr p,
+    #dark-circle-hover p {
         line-height: 1;
         font-size: 25px;
     }
@@ -368,6 +374,7 @@ input[type="month"] {
     #shapes {
         width: 110% !important;
         margin-bottom: 0px !important;
+        padding-top: 30px !important;
         padding-bottom: 0px !important;
     }
     #shapes2 {
@@ -553,6 +560,30 @@ input[type="month"] {
     /* border: 1px solid blue; */
 }
 
+@media only screen and (max-width: 375px) {
+    .bg-color5 {
+        width: 140%;
+        /* border: 1px solid blue; */
+    }
+    .accordions {
+        width: 80%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #section-container-img {
+        display: none !important;
+    }
+    .section-container {
+        width: 100% !important;
+    }
+    .section-container p {
+        font-size: 15px !important;
+    }
+    .section3 {
+        width: 100% !important;
+    }
+}
+
 
 /* accordion */
 
@@ -635,6 +666,29 @@ input[type="month"] {
     margin: 5px 25%;
 }
 
+@media only screen and (max-width: 375px) {
+    #section-3-form input,
+    #section-3-form textarea {
+        width: 80% !important;
+        margin-left: 60px;
+    }
+    #section-3-form select {
+        margin: 5px 20%;
+    }
+    #section-3-form button {
+        margin-left: 110px !important;
+    }
+    .section-container h1 {
+        margin-left: 100px !important;
+    }
+    .section-container p {
+        margin-left: 90px !important;
+    }
+    #section3 {
+        width: 100% !important;
+    }
+}
+
 #section-3-form select {
     clear: both;
     margin: 5px 40%;
@@ -645,6 +699,22 @@ input[type="month"] {
     margin: 5px 30%;
     position: relative;
     left: 78px;
+}
+
+@media only screen and (max-width: 375px) {
+    #section4 {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    #section4 h1 {
+        margin-left: 25px !important;
+        margin-bottom: 25px;
+    }
+    .bg-color2 {
+        width: 140%;
+        height: 1300px;
+        /* border: 1px solid blue; */
+    }
 }
 
 #section4 {
