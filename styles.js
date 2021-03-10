@@ -31,3 +31,12 @@ function toggleAccordion(id) {
         x.style.display = "none";
     }
 }
+
+//Overlay
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}

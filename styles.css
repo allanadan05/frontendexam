@@ -667,6 +667,42 @@ ul li {
     margin-bottom: 10px;
 }
 
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color2);
+    opacity: 65%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    line-height: 1;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#text p {
+    font-size: 30px;
+}
+
+#text b {
+    margin-left: 13%;
+}
+
 
 /* bootstrap */
 
