@@ -52,6 +52,20 @@ h2 {
     line-height: 1;
 }
 
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .body {
+        font-size: 25px;
+    }
+}
+
 #nav {
     background-color: var(--color3);
     height: 50px;
@@ -326,6 +340,43 @@ input[type="month"] {
     top: -50px;
 }
 
+@media only screen and (max-width: 375px) {
+    #section1 {
+        width: 120%;
+        margin: 0 auto;
+    }
+    .row {
+        width: 110%;
+        margin: 0 auto;
+    }
+    #no-circle-hover p {
+        line-height: 1;
+        font-size: 25px;
+    }
+    p {
+        line-height: 1;
+        font-size: 25px;
+    }
+    #welcome p {
+        line-height: 1;
+        font-size: 25px;
+    }
+    #no-circle-hover,
+    #lighter-circle-hover,
+    #light-circle-hover,
+    #dark-circle-hover,
+    #shapes {
+        width: 110% !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    #shapes2 {
+        width: 110% !important;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+}
+
 #lighter-circle-hover,
 #light-circle-hover,
 #dark-circle-hover {
@@ -339,9 +390,29 @@ input[type="month"] {
     width: 49%;
     padding-left: 20px;
     /* border: 1px solid blue; */
+    display: inline;
+}
+
+#shapes2 {
+    margin: 120px auto 50px auto;
+    text-align: left;
+    float: left;
+    width: 49%;
+    padding-left: 20px;
+    /* border: 1px solid blue; */
+    display: none;
 }
 
 #circle-lighter {
+    width: 115px;
+    height: 115px;
+    background: var(--color5);
+    border-radius: 50%;
+    margin-top: 320px;
+    margin-right: 85px;
+}
+
+#circle-lighter2 {
     width: 115px;
     height: 115px;
     background: var(--color5);
@@ -365,6 +436,15 @@ input[type="month"] {
     margin-right: 85px;
 }
 
+#circle-light2 {
+    width: 115px;
+    height: 115px;
+    background: var(--color1);
+    border-radius: 50%;
+    margin-top: 220px;
+    margin-right: 85px;
+}
+
 #circle-light:hover {
     width: 150px;
     height: 150px;
@@ -372,6 +452,14 @@ input[type="month"] {
 }
 
 #circle-dark {
+    width: 115px;
+    height: 115px;
+    background: var(--color2);
+    border-radius: 50%;
+    margin-top: 120px;
+}
+
+#circle-dark2 {
     width: 115px;
     height: 115px;
     background: var(--color2);
@@ -387,11 +475,50 @@ input[type="month"] {
 }
 
 @media (max-width: 375px) {
+    #noP {
+        display: none !important;
+    }
+    #noP2 {
+        display: inline !important;
+    }
     #shapes {
         width: 100%;
+        display: none;
+    }
+    #shapes2 {
+        width: 100%;
+        display: inline;
+        padding-top: 0px;
+        margin-top: 0px;
     }
     #welcome {
         width: 100%;
+        padding-top: 70px;
+        margin-top: 0px;
+    }
+    #margin-section1 {
+        margin-top: 0px !important;
+    }
+    #section1 {
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+    #circle-lighter2 {
+        margin-top: -50px !important;
+        padding-top: 0px;
+        margin-right: 85px;
+    }
+    #circle-dark2 {
+        margin-top: 80px !important;
+        padding-top: 0px;
+        margin-left: 100px;
+    }
+    #circle-light2 {
+        margin-top: -50px !important;
+        padding-top: 0px;
+    }
+    .circle-text {
+        margin-bottom: 0 !important;
     }
 }
 

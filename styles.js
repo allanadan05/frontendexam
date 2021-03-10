@@ -8,17 +8,47 @@ function noHover() {
 
 function lighter() {
     document.getElementById("lighter-circle-hover").style.display = "inline";
+    document.getElementById("light-circle-hover").style.display = "none";
+    document.getElementById("dark-circle-hover").style.display = "none";
     document.getElementById("no-circle-hover").style.display = "none";
+}
+
+function lighter2() {
+    document.getElementById("lighter-circle-hover").style.display = "inline";
+    document.getElementById("light-circle-hover").style.display = "none";
+    document.getElementById("dark-circle-hover").style.display = "none";
+    document.getElementById("no-circle-hover").style.display = "none";
+    document.getElementById("noL").innerHTML = "Lighter Circle on Click";
 }
 
 function light() {
+    document.getElementById("lighter-circle-hover").style.display = "none";
     document.getElementById("light-circle-hover").style.display = "inline";
+    document.getElementById("dark-circle-hover").style.display = "none";
     document.getElementById("no-circle-hover").style.display = "none";
 }
 
+function light2() {
+    document.getElementById("lighter-circle-hover").style.display = "none";
+    document.getElementById("light-circle-hover").style.display = "inline";
+    document.getElementById("dark-circle-hover").style.display = "none";
+    document.getElementById("no-circle-hover").style.display = "none";
+    document.getElementById("noI").innerHTML = "Light Circle on Click";
+}
+
 function dark() {
+    document.getElementById("lighter-circle-hover").style.display = "none";
+    document.getElementById("light-circle-hover").style.display = "none";
     document.getElementById("dark-circle-hover").style.display = "inline";
     document.getElementById("no-circle-hover").style.display = "none";
+}
+
+function dark2() {
+    document.getElementById("lighter-circle-hover").style.display = "none";
+    document.getElementById("light-circle-hover").style.display = "none";
+    document.getElementById("dark-circle-hover").style.display = "inline";
+    document.getElementById("no-circle-hover").style.display = "none";
+    document.getElementById("noD").innerHTML = "Dark Circle on Click";
 }
 
 // Accordion at Section 2
