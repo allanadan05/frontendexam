@@ -19,11 +19,12 @@
 
 <body>
     <div class="row" id="nav">
+       
         <div class="container-fluid">
             <a href="design1.html">
                 <h2 class="floatleft" style="position: relative; top: -10px;">This is the Nav</h2>
             </a>
-
+           
             <div class="nav-item floatright">
                 <h2 class="dropbtn">Item 2</h2>
                 <div class="dropdown-content">
@@ -42,7 +43,20 @@
                     <a href="#">Lorem ipsum dolor sit amet</a>
                 </div>
             </div>
+            <div id="hamburger" onclick="myFunction()">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </div>
+
+           
         </div>
+        <div id="mobile-nav">
+            <a href="#">ITEM</a>
+            <a href="#">ITEM</a>
+        </div>
+        <button id="close" onclick="close()"><i class="fa fa-times-circle"></i></button>
+        
     </div>
     <div class="clear"></div>
     <!-- style="background-color: aquamarine; position:relative; top: 50px; height: 1000px;" -->

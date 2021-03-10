@@ -70,3 +70,25 @@ function on() {
 function off() {
     document.getElementById("overlay").style.display = "none";
 }
+
+/* hamburger nav */
+
+function myFunction() {
+    var hamburger = document.getElementById("hamburger");
+    var mobile_nav = document.getElementById("mobile-nav");
+    var closebtn = document.getElementById("close");
+    hamburger.addEventListener('click',()=>{
+        hamburger.classList.toggle('active');
+        mobile_nav.style.display="flex";
+        closebtn.style.display="inline";
+    })
+  }
+
+  function close() {
+    var mobile_nav = document.getElementById("mobile-nav");
+    var closebtn = document.getElementById("close");
+    closebtn.addEventListener('click',()=>{
+        mobile_nav.style.display="none";
+        
+    })
+  }
