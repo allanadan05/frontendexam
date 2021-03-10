@@ -2021,29 +2021,27 @@ ul li {
     }
 }
 
-@media (max-width: 375px){
-    .floatright{
+@media (max-width: 375px) {
+    .floatright {
         display: none;
     }
-    #hamburger{
+    #hamburger {
         margin-top: 5px;
         margin-right: 50px;
         float: right;
         z-index: 10;
         cursor: pointer;
     }
-    #hamburger .active::after{
+    #hamburger .active::after {
         border: 2px solid white;
     }
-    
-    .menu{
+    .menu {
         width: 35px;
         height: 5px;
         background-color: black;
         margin: 6px 0;
     }
-
-    #mobile-nav{
+    #mobilenav {
         pointer-events: none;
         margin-left: -25px;
         width: 100%;
@@ -2058,19 +2056,15 @@ ul li {
         font-size: 40px;
         transition: 1s ease-in;
         margin-top: -70px;
-       display: none;
-       
-
+        display: none;
     }
-
-    #mobile-nav a{
+    #mobile-nav a {
         text-decoration: none;
         margin: 20px;
         cursor: pointer;
         color: #fff;
     }
-
-    #close{
+    #close {
         cursor: pointer;
         position: absolute;
         right: 20px;
@@ -2079,8 +2073,5 @@ ul li {
         height: 40px;
         z-index: 20;
         display: none;
-      }
-    
-
-    
+    }
 }

@@ -75,20 +75,19 @@ function off() {
 
 function myFunction() {
     var hamburger = document.getElementById("hamburger");
-    var mobile_nav = document.getElementById("mobile-nav");
+    var mobilenav = document.getElementById("mobilenav");
     var closebtn = document.getElementById("close");
-    hamburger.addEventListener('click',()=>{
+    hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');
-        mobile_nav.style.display="flex";
-        closebtn.style.display="inline";
+        mobilenav.style.display = "inline";
+        closebtn.style.display = "inline";
     })
-  }
+}
 
-  function close() {
-    var mobile_nav = document.getElementById("mobile-nav");
+function close() {
+    var mobilenav = document.getElementById("mobilenav");
     var closebtn = document.getElementById("close");
-    closebtn.addEventListener('click',()=>{
-        mobile_nav.style.display="none";
-        
+    closebtn.addEventListener('click', () => {
+        mobilenav.style.display = "none";
     })
-  }
+}
