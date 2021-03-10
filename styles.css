@@ -399,7 +399,7 @@ input[type="month"] {
     width: 80%;
     margin: 0 auto;
     /* border: 1px solid blue; */
-    padding: 0;
+    padding: 0px 0px 50px 0px;
     box-align: center;
     /* background-color: var(--color5); */
 }
@@ -633,6 +633,38 @@ ul li {
 .center {
     display: block;
     margin: auto;
+}
+
+.design2 {
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+}
+
+.design2-content {
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+}
+
+.design2-content p {
+    margin-top: 12px;
+    color: var(--color4);
+    font-size: 16px;
+    font-weight: normal;
+    word-wrap: normal;
+}
+
+.bg-white {
+    background-color: white;
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 
