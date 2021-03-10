@@ -489,6 +489,12 @@ input[type="month"] {
     #noP2 {
         display: inline !important;
     }
+    #noP2,
+    #noL,
+    #noD,
+    #noI {
+        margin-top: 30px !important;
+    }
     #shapes {
         width: 100%;
         display: none;
