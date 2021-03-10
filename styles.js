@@ -77,17 +77,17 @@ function myFunction() {
     var hamburger = document.getElementById("hamburger");
     var mobilenav = document.getElementById("mobilenav");
     var closebtn = document.getElementById("close");
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        mobilenav.style.display = "inline";
-        closebtn.style.display = "inline";
-    })
+
+    hamburger.classList.toggle('active');
+    mobilenav.style.display = "inline";
+    closebtn.style.display = "inline";
+
 }
 
-function close() {
+function exit() {
     var mobilenav = document.getElementById("mobilenav");
+    mobilenav.style.display = "none";
     var closebtn = document.getElementById("close");
-    closebtn.addEventListener('click', () => {
-        mobilenav.style.display = "none";
-    })
+    closebtn.style.display = "none";
+
 }

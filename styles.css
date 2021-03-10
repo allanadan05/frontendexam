@@ -2056,13 +2056,13 @@ ul li {
         font-size: 40px;
         transition: 1s ease-in;
         margin-top: -70px;
-        display: none;
     }
-    #mobile-nav a {
+    #mobilenav a {
         text-decoration: none;
-        margin: 20px;
+        margin: 100px auto 0 auto;
         cursor: pointer;
-        color: #fff;
+        color: white;
+        display: block;
     }
     #close {
         cursor: pointer;
